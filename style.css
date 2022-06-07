@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap');
 
+img{cursor: pointer}
 *{padding: 0px; margin: 0px;
 
     font-family: 'Roboto';
@@ -9,6 +10,7 @@
     font-size: 18px;
     line-height: 27px;
 }
+
 .container{
     display: grid;
     grid-template-areas: 
@@ -91,6 +93,7 @@ figure{
 
 header .featuredImage img{
     padding: 1.5rem 0rem;
+    cursor: pointer
 }
 /* ------------- FIM MAIN TOP ----------------- */
 
@@ -106,10 +109,12 @@ main{
 
 main .featuredImage img, aside,footer{
     padding: 4rem 0rem 0rem 0rem;
+    cursor: pointer
 }
 
 .mainGroupText p:nth-child(1){
     font-size: 16px;
+   
 }
 
 .mainGroupText p:nth-child(2){
@@ -117,6 +122,7 @@ main .featuredImage img, aside,footer{
     font-size: 24px;
     color: #290742;
     padding: .8rem 0rem;
+    cursor: pointer;
 }
 
 .mainGroupText p:nth-child(3){
@@ -132,6 +138,7 @@ aside{
 hr{
     border:1px solid #F2E7FA;
     margin: 1rem 0rem;
+    cursor: alias;
 }
 /* --------------------------- FIM DO ASIDE ------------------------------- */
 /* ---------------------------- INICIO DO FOOTER ------------------------- */
